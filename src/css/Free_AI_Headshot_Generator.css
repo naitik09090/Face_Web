@@ -1,0 +1,115 @@
+.free_text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.free_text p {
+    font-size: 18px;
+    color: #696969;
+    margin-bottom: 50px;
+}
+
+.Main_5_free {
+    border: none;
+    border-radius: 25px;
+    width: auto;
+    height: 400px;
+    box-shadow: 0px 0 2px 2px #f7f7f7;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.Main_5_free button {
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    background-color: rgb(91, 48, 247);
+    color: white;
+    box-shadow: 0 8px 20px rgba(92, 77, 255, 0.4);
+    transition: all 0.3s ease;
+    position: relative;
+    top: 150px;
+}
+
+.Main_5_free button:hover {
+    background-color: rgb(69, 17, 255);
+    color: white;
+    box-shadow: 0 12px 24px rgba(92, 77, 255, 0.6);
+    transform: translateY(-2px);
+}
+
+.Main_5_free p {
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 155px;
+}
+
+.Upload_icon_Free {
+    margin: 5px;
+    position: relative;
+    right: 5px;
+    bottom: 2px;
+}
+
+.m12_Free {
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.m12_Free:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.Free_TXt {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 100px;
+}
+
+.cross_img_Free {
+    margin-bottom: 80px;
+}
+
+.m1Couple_img_Free {
+    transform: rotate(5deg);
+    height: 300px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.m2Couple_img_Free {
+    transform: rotate(-10deg);
+    height: 300px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.M_21_Free {
+    height: auto;
+    width: 650px;
+    border-radius: 20px;
+}
+
+.Nav_Blur_Free {
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}

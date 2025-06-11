@@ -1,0 +1,52 @@
+.row_6 h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.Close_Icon6{
+    height: auto;
+    width: auto;
+    color: black;
+    margin-left: 350px;
+}
+.row_6{
+    margin-bottom: 20px;
+}
+.icon_create_6{
+    height: 20px;
+    width: auto;
+    color: #6d6d6d;
+    position: relative;
+    right: 10px;
+    bottom: 2px;
+}
+.text_create_6{
+    font-size: 17px;
+    color: #6d6d6d;
+    margin-bottom: 97px;
+}
+.row_62{
+    height: 75px;
+    background-color: rgba(148, 144, 144, 0.534);
+}
+.btn_b6 {
+  border: 1px solid #333;
+  border-radius: 30px;
+  font-weight: 700;
+  color: #333;
+  height: 40px;
+  width: auto;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.btn_n6 {
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: black;
+  border-radius: 30px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+}

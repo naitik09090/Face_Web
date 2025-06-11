@@ -1,0 +1,21 @@
+.btn_Login{
+    background-color:rgb(68, 68, 224) !important;
+    color: white !important;
+    border-radius: 50px !important;
+    padding: 10px 20px !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    cursor: pointer;
+    border: none;
+}
+.form-control1{
+    border :3px solid rgb(168, 161, 161) !important;
+    background-color: rgb(247, 247, 247) !important;
+}
+.btn-close1 {
+    position: relative;
+    left: 330px;
+}
+.google_icon{
+    margin:10px;
+}

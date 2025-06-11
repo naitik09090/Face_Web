@@ -1,0 +1,172 @@
+/* body{
+  overflow-y: hidden;
+} */
+.row2 {
+  margin-bottom: 20px;
+}
+.CH2_h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+.icon2{
+  margin-bottom: 480px;
+}
+.Nav_create_Headshot{
+  margin-bottom: 50px;
+}
+.black1{
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  bottom: 3px;
+}
+.black2{
+  height: 40px;
+  width: 40px;
+  background-color: burlywood;
+  border-radius: 50%;
+}
+.Brown3{
+  height: 40px;
+  width: 40px;
+  background-color: rgb(122, 68, 24);
+  border-radius: 50%;
+  position: relative;
+  bottom: 3px;
+}
+.black_p{
+  position: relative;
+  left: 60px;
+  top: 3px;
+}
+.black_p2{
+  color: rgb(110, 103, 93);
+  position: relative;
+  left: 60px;
+  top: 3px;
+}
+.Brown_p{
+  color:rgba(109, 95, 95, 0.932);
+  position: relative;
+  left: 60px;
+  top: 3px;
+}
+.bald_p{
+  color:rgba(109, 95, 95, 0.932);
+  position: relative;
+  left: 60px;
+  bottom:38px;
+}
+.man_r12{
+  height: 20px;
+  width: 20px;
+  margin-left: 190px;
+  position: relative;
+  bottom: 40px;
+  left: 80px;
+}
+.man_r13{
+  height: 20px;
+  width: 20px;
+  margin-left: 190px;
+  position: relative;
+  bottom: 82px;
+  left: 80px;
+}
+.man_r22{
+  height: 20px;
+  width: 20px;
+  margin-left: 160px;
+  position: relative;
+  top: 5px;
+}
+.man1{
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  font-weight:700;
+  border:1px solid black;
+  border-radius: 10px;
+  padding: 13px 15px;
+  margin: 10px;
+}
+.man1:hover{
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.man2{
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  font-weight:700;
+  border:1px solid black;
+  border-radius: 10px;
+  padding: 13px 15px;
+}
+.man2:hover{
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.man3{
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  font-weight:700;
+  border:1px solid black;
+  border-radius: 10px;
+  padding: 13px 15px;
+  margin: 10px;
+}
+.man3:hover{
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.man4{
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  font-weight:700;
+  border:1px solid black;
+  border-radius: 10px;
+  padding: 13px 15px;
+}
+.man4:hover{
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.block_Icon{
+  color: black;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  bottom: 3px;
+}
+.btn_b2 {
+  border: 1px solid #333;
+  border-radius: 30px;
+  font-weight: 700;
+  color: #333;
+  height: 40px;
+  width: auto;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.btn_n2 {
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: black;
+  border-radius: 30px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+}
+.row_22 {
+    height: 75px;
+    background-color: rgba(148, 144, 144, 0.534);
+    margin-bottom: 300px;
+}

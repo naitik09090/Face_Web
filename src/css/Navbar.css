@@ -1,0 +1,631 @@
+body {
+    overflow-x: hidden;
+}
+
+.Main {
+    background: linear-gradient(to bottom, #cce6ff, #ffffff ,#ffffff ,#ffffff ,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff);
+}
+.Main2{
+    background-color: #cce6ff;
+}
+.navbar1 {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.button {
+    height: 50px;
+}
+
+.privacy {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 140px;
+}
+
+.rating {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: 70px;
+    bottom: 5px;
+}
+
+.check {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 30px;
+    top: 2px;
+}
+
+.privacy_text {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+    position: relative;
+    top: 8px;
+    right: 130px;
+}
+
+.rating_text {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+    position: relative;
+    top: 5px;
+    right: 60px;
+}
+
+.check_text {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.MainNav {
+    margin-right: 200px;
+}
+
+.Log_in {
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C_Head {
+    background-color: #5ca4fc;
+    color: white;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Log_in:hover {
+    background-color: white;
+    color: black;
+}
+
+.C_Head:hover {
+    background-color: rgb(0, 110, 255);
+    color: white !important;
+}
+
+.Home_t h1 {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Home_t2 p {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.Home_t3 button {
+    background-color: rgb(110, 166, 240);
+    border: none;
+    color: white;
+    text-align: center;
+    height: 60px;
+    padding: auto;
+    width: 300px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    right: 25px;
+}
+
+.Home_t31 {
+    margin: 50px;
+}
+
+.icon_Side {
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 25px;
+}
+
+
+/* App.css */
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.home_banner {
+    text-align: center;
+    margin: 50px;
+}
+
+.card_Home {
+    margin: 100px;
+}
+
+.Home_Quality {
+    text-align: center;
+}
+
+.Sc_Images {
+    margin: 80px;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 70%;
+    margin: auto;
+}
+
+.carousel-wrapper {
+    animation: 30s linear infinite;
+}
+
+@keyframes scrollX {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.img-fluid2 {
+    object-fit: cover;
+
+}
+
+.Ai_h1 {
+    margin-bottom: 80px;
+}
+
+.m1_img {
+    transform: rotate(-5deg);
+    height: 300px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+.m2_img {
+    transform: rotate(10deg);
+    height: 300px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 20px;
+    position: relative;
+    right: 150px;
+    top: 5px;
+}
+
+.m1_img_main {
+    margin-bottom: 100px;
+}
+
+.m1_img_txt p {
+    font-size: 20px;
+    color: #949494dc;
+}
+
+.m1_img_txt2 p {
+    font-size: 20px;
+    color: #949494dc;
+}
+
+.fb_icon {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 50px;
+    right: 280px;
+    border: none;
+    background-color: white;
+    color: rgb(59, 104, 252);
+    border-radius: 50%;
+}
+
+.twitter_icon {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    bottom: 220px;
+    left: 390px;
+    border: none;
+    background-color: rgb(46, 46, 48);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.ig_icon {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 50px;
+    right: 280px;
+    border: none;
+    object-fit: cover;
+    border-radius: 25px;
+    background: radial-gradient(circle at 30% 110%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    padding: 10px;
+    color: white;
+}
+
+.SocialReddit_icon {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    bottom: 220px;
+    left: 390px;
+    border: none;
+    background-color: rgb(252, 73, 2);
+    color: white;
+    padding: 10px;
+    border-radius: 40%;
+}
+
+.LinkdIn_Icon {
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 35%;
+    position: relative;
+    bottom: 240px;
+    left: 390px;
+    background-color: #0368ac;
+    color: white;
+    padding: 10px;
+}
+
+.Behance_Icon {
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 40%;
+    position: relative;
+    bottom: 240px;
+    left: 390px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.Dribble_Icon {
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    right: 285px;
+    background-color: rgb(250, 79, 184);
+    color: white;
+    padding: 5px;
+}
+
+.Messenger_Icon {
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 35%;
+    position: relative;
+    top: 60px;
+    right: 285px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff, #a82dd1, #ff4a7a);
+    background: linear-gradient(135deg, #00c6ff 0%, #0072ff 30%, #a82dd1 65%, #ff4a7a 100%);
+    color: white;
+    padding: 5px;
+}
+
+.m3_img {
+    transform: rotate(-5deg);
+    height: 320px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+.m4_img {
+    transform: rotate(10deg);
+    height: 320px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 20px;
+    position: relative;
+    right: 150px;
+    top: 5px;
+}
+
+.m2_img_main {
+    margin-bottom: 100px;
+}
+
+.card-Home {
+    margin-bottom: 100px;
+}
+
+.card-Home-txt {
+    margin-bottom: 50px;
+}
+
+.card_bg {
+    background-color: #e8edfc;
+}
+
+.bg-Card {
+    background-color: #6d91fd;
+}
+
+.Scroll_Img {
+    margin: 100px;
+}
+
+.Three_Cards {
+    margin-bottom: 50px;
+}
+
+.btn_Buy {
+    font-weight: 700;
+    font-size: 20px;
+    width: auto;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+.Choose_txt {
+    margin-bottom: 50px;
+}
+
+.Five_str {
+    width: 80px;
+}
+
+.crd_1 {
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.box_main {
+    margin-bottom: 100px;
+}
+
+.quenstion_txt {
+    margin-bottom: 50px;
+}
+
+.Q_1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.q_1 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+
+.Tgl_Btn {
+    position: relative;
+    bottom: 40px;
+}
+
+.Tgl_Txt {
+    color: rgb(106, 107, 109);
+    position: relative;
+    bottom: 40px;
+    left: 470px;
+}
+
+.Tgl_Cross_Btn {
+    color: #000000;
+    height: 15px;
+    width: 15px;
+}
+
+.Tgl_Plus_Btn {
+    height: 20px;
+    width: 20px;
+}
+
+.icon_Side_End {
+    background-color: #5f86fa;
+    color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 10px;
+}
+
+.End_btn {
+    background-color: white;
+    color: #5f86fa;
+    font-weight: 600;
+    border: none;
+    width: 250px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.End_btn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.End_Point {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.Bg_End {
+    width: auto;
+    background-color: #5f86fa;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px;
+    border: 15px solid #5f86fa;
+}
+
+.Bg_End h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.Bg_End h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #c5d2fd;
+}
+
+.scroll-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.scroll-images {
+    display: flex;
+    gap: 1rem;
+    animation: scroll-left 20s linear infinite;
+}
+
+.scroll-images img {
+    width: auto;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.scroll-images img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.Q_10 {
+    margin-bottom: 50px;
+}
+.Bg_Footer{
+    background-color: #000618;
+    color: white;
+    margin: 80px;
+    padding: 50px;
+}
+.nav-item1{
+    margin: 10px;
+    position: relative;
+    left: 50px;
+}
+.m1_Headshots{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.m1_Headshots2{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 10px;
+}
+.m1_Headshots3{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 20px;
+}
+.Main_p_Images{
+    width: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    right: 40px;
+}
+.Try_our_AI_Couple_Photoshoot{
+    background-color: #6087fd;
+    padding: 40px;
+}
+.Try_our_AI_Couple_Photoshoot h1{
+    color: white;
+}
+.Try_our_AI_Couple_Photoshoot p{
+    color: #a9cffd;
+}
+.scrolling_images_Main{
+    margin-bottom:100px;
+}

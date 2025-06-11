@@ -1,0 +1,42 @@
+.Main_5{
+    width: auto;
+    height: auto;
+}
+.border_5{
+    border: #ccddfa;
+    width: 1000px;
+    height: auto;
+    margin-bottom: 320px;
+}
+.UP_Photos{
+    margin-bottom: 50px;
+}
+.Required_Bg_2{
+    background-color: whitesmoke;
+}
+.row_52{
+    height: 74px;
+    background-color: rgba(148, 144, 144, 0.534);
+}
+.btn_b5 {
+  border: 1px solid #333;
+  border-radius: 30px;
+  font-weight: 700;
+  color: #333;
+  height: 40px;
+  width: auto;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.btn_n5 {
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: black;
+  border-radius: 30px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+}

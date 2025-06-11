@@ -1,0 +1,114 @@
+.btn.active {
+  background-color: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}
+
+.row1 {
+  margin-bottom: 20px;
+}
+.Nav_HeadShots{
+  margin-bottom: 50px;
+}
+.CH1_h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.icon1 {
+  margin-bottom: 545px;
+}
+
+.btn_b {
+  border: 1px solid #333;
+  border-radius: 30px;
+  font-weight: 700;
+  color: #333;
+  height: 40px;
+  width: auto;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.btn_n {
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: black;
+  border-radius: 30px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+}
+.row_12 {
+    height: 75px;
+    background-color: rgba(148, 144, 144, 0.534);
+    margin-bottom: 300px;
+}
+
+.man {
+  width: auto;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 13px 15px;
+}
+
+.woman {
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 13px 15px;
+}
+
+.man_r {
+  height: 20px;
+  width: 20px;
+  margin-left: 250px;
+  position: relative;
+  bottom: 25px;
+  left: auto;
+  right: auto;
+}
+.bi_m{
+  position: relative;
+  right: 100px;
+}
+.bi_w{
+  position: relative;
+  right: 80px;
+}
+.man_r2 {
+  height: 20px;
+  width: 20px;
+  margin-left: 250px;
+  position: relative;
+  bottom: 25px;
+}
+
+
+.step-circle {
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  position: relative;
+}
+
+.circle-inner {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+.step-line {
+  width: 40px;
+  height: 2px;
+  background-color: lightgray;
+}

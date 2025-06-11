@@ -1,0 +1,73 @@
+.Affiliate_btn{
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.19);
+    height: 40px;
+    position: relative;
+    top: 60px;
+}
+.Affiliate_Start{
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 100px;
+}
+.Affiliate_Start_txt{
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 100px;
+}
+.Affiliate_Start_txt span{
+    font-weight: 700;
+}
+.Affiliate_Start h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.Affiliate_txt{
+    margin-top: 5px;
+}
+.Affiliate_btn1{
+    position: relative;
+    top: 140px;
+}
+.Affiliate_btn1 button {
+    background-color: rgb(110, 166, 240);
+    border: none;
+    color: white;
+    text-align: center;
+    height: 60px;
+    padding: auto;
+    width: 190px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.Dwl_Affiliate a{
+    color: rgb(153, 151, 151);
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+}
+.Dwl_Affiliate h1{
+    position: relative;
+    top: 220px;
+}
+.Affiliate-Home-txt{
+    position: relative;
+    top: 250px;
+}
+.Icon_Affiliate{
+    height: 30px;
+    width: 50px;
+}
+.Bg_Footer_Affiliate{
+    background-color: #000618;
+    color: white;
+    margin: 80px;
+    padding: 50px;
+    position: relative;
+    top: 300px;
+}

@@ -1,0 +1,84 @@
+.Photo_shoot button {
+    background-color: rgb(110, 166, 240);
+    border: none;
+    color: white;
+    text-align: center;
+    height: 60px;
+    padding: auto;
+    width: 350px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    right: 50px;
+}
+.border-secondary2{
+    width: 350px;
+    position: relative;
+    left: 230px;
+    bottom: 170px;
+    transform: rotate(-90deg);
+}
+.scroll-wrapper2 {
+    overflow: hidden;
+    width: 100%;
+}
+
+.scroll-images2 {
+    display: flex;
+    gap: 1rem;
+    animation: scroll-left 20s linear infinite;
+}
+
+.scroll-images2 img {
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.scroll-images2 img:hover {
+    transform: scale(1.1);
+    border-radius: 15%;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.Couple_P_txt{
+    padding: 100px;
+}
+.m1Couple_img {
+    transform: rotate(-5deg);
+    height: 300px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+.m2Couple_img {
+    transform: rotate(10deg);
+    height: 300px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 20px;
+    position: relative;
+    right: 100px;
+    top: 5px;
+}
+
+.btn_Buy_Couple {
+    font-weight: 700;
+    font-size: 20px;
+    width: auto;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
