@@ -459,17 +459,12 @@ body {
     background-color: lightblue;
     margin-top: 20px;
 }
-
-.Tgl_Btn {
-    position: relative;
-    bottom: 40px;
+.FAQs_Row{
+    margin: 10px;
 }
 
 .Tgl_Txt {
     color: rgb(106, 107, 109);
-    position: relative;
-    bottom: 40px;
-    left: 470px;
 }
 
 .Tgl_Cross_Btn {
@@ -585,6 +580,11 @@ body {
     margin: 10px;
     position: relative;
     left: 50px;
+}
+.nav-item1 :hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    color: #0072ff !important;
 }
 .m1_Headshots{
     border: 1px solid white;

@@ -636,198 +636,198 @@ const AI_Couple_Photoshoot = () => {
 
                             {/* one Toggle Btn Hide Show */}
 
-                            <div className="row">
+                            <div className="row FAQs_Row">
                                 <div className="col-md-3"></div>
                                 <div className="col-md-6 Q_1">
                                     What Kind of photos do I need to upload?
                                 </div>
-                                <div className="col-md-3 offset-sm-9">
+                                <div className="col-md-3">
                                     <button className="btn Tgl_Btn" onClick={handleToggle}>
                                         {isVisible ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                                     </button>
                                 </div>
-
-                                <div className="col-sm-6">
-                                    {isVisible && (
-                                        <div id="q_1" className="Tgl_Txt">
-                                            Upload a variety of photos with different facial expressions,
-                                            backgrounds, and lighting from different times of the day.<br />
-                                            Also, try to keep makeup and accessories simple.
-                                        </div>
-                                    )}
-                                </div>
+                                {isVisible && (
+                                <>
+                                    <div className="col-md-3"></div>
+                                    <div className="col-md-6 Tgl_Txt">
+                                        Upload a variety of photos with different facial expressions,
+                                        backgrounds, and lighting from different times of the day.<br />
+                                        Also, try to keep makeup and accessories simple.
+                                    </div>
+                                </>
+                            )}
                             </div>
 
                             {/* two Toggle Btn Hide Show */}
 
-                            <div className="row">
+                            <div className="row FAQs_Row">
                                 <div className="col-md-3"></div>
                                 <div className="col-md-6 Q_1">
                                     What do you do with my uploaded photos?
                                 </div>
-                                <div className="col-md-3 offset-sm-9">
+                                <div className="col-md-3">
                                     <button className="btn Tgl_Btn" onClick={handleToggle1}>
                                         {isVisible1 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                                     </button>
                                 </div>
-
-                                <div className="col-sm-6">
-                                    {isVisible1 && (
-                                        <div id="q_1" className="Tgl_Txt">
-                                            We use your photos to train our AI model to create realistic AI headshots. Your photos are deleted after we provide <br /> result.
-                                        </div>
-                                    )}
-                                </div>
+                                {isVisible1 && (
+                                <>
+                                    <div className="col-md-3"></div>
+                                    <div className="col-md-6 Tgl_Txt">
+                                        We use your photos to train our AI model to create realistic AI headshots. Your photos are deleted after we provide <br /> result.
+                                    </div>
+                                </>
+                            )}
                             </div>
 
                             {/* three Toggle Btn Hide Show */}
 
-                            <div className="row">
+                            <div className="row FAQs_Row">
                                 <div className="col-md-3"></div>
                                 <div className="col-md-6 Q_1">
                                     Who owns my AI photos?
                                 </div>
-                                <div className="col-md-3 offset-sm-9">
+                                <div className="col-md-3">
                                     <button className="btn Tgl_Btn" onClick={handleToggle2}>
                                         {isVisible2 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                                     </button>
                                 </div>
-
-                                <div className="col-sm-6">
-                                    {isVisible2 && (
-                                        <div id="q_1" className="Tgl_Txt">
-                                            You do. We give you full ownership and commercial rights to your AI photos.
-                                        </div>
-                                    )}
-                                </div>
+                                {isVisible2 && (
+                                <>
+                                    <div className="col-md-3"></div>
+                                    <div className="col-md-6 Tgl_Txt">
+                                        You do. We give you full ownership and commercial rights to your AI photos.
+                                    </div>
+                                </>
+                            )}
                             </div>
                             {/* Four Toggle Btn Hide Show */}
 
-                            <div className="row">
+                            <div className="row FAQs_Row">
                                 <div className="col-md-3"></div>
                                 <div className="col-md-6 Q_1">
                                     How long does an AI headshot take?
                                 </div>
-                                <div className="col-md-3 offset-sm-9">
+                                <div className="col-md-3">
                                     <button className="btn Tgl_Btn" onClick={handleToggle3}>
                                         {isVisible3 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                                     </button>
                                 </div>
-
-                                <div className="col-sm-6">
-                                    {isVisible3 && (
-                                        <div id="q_1" className="Tgl_Txt">
-                                            We focus on quality, not speed. You'll get your headshots the same day.
-                                        </div>
-                                    )}
-                                </div>
+                                {isVisible3 && (
+                                <>
+                                    <div className="col-md-3"></div>
+                                    <div className="col-md-6 Tgl_Txt">
+                                        We focus on quality, not speed. You'll get your headshots the same day.
+                                    </div>
+                                </>
+                            )}
                             </div>
                             {/* Five Toggle Btn Hide Show */}
 
-                            <div className="row">
+                            <div className="row FAQs_Row">
                                 <div className="col-md-3"></div>
                                 <div className="col-md-6 Q_1">
                                     What do people misunderstand about AI headshots?
                                 </div>
-                                <div className="col-md-3 offset-sm-9">
+                                <div className="col-md-3">
                                     <button className="btn Tgl_Btn" onClick={handleToggle4}>
                                         {isVisible4 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                                     </button>
                                 </div>
-
-                                <div className="col-sm-6">
-                                    {isVisible4 && (
-                                        <div id="q_1" className="Tgl_Txt">
-                                            Not every photo will be perfect. Some might look strange due to AI's nature. But we guarantee at least one great <br /> headshot in every order.
-                                        </div>
-                                    )}
-                                </div>
+                                {isVisible4 && (
+                                <>
+                                    <div className="col-md-3"></div>
+                                    <div className="col-md-6 Tgl_Txt">
+                                        Not every photo will be perfect. Some might look strange due to AI's nature. But we guarantee at least one great <br /> headshot in every order.
+                                    </div>
+                                </>
+                            )}
                             </div>
                             {/* six Toggle Btn Hide Show */}
 
-                            <div className="row">
+                            <div className="row FAQs_Row">
                                 <div className="col-md-3"></div>
                                 <div className="col-md-6 Q_1">
                                     How many good photos can I expect?
                                 </div>
-                                <div className="col-md-3 offset-sm-9">
+                                <div className="col-md-3">
                                     <button className="btn Tgl_Btn" onClick={handleToggle5}>
                                         {isVisible5 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                                     </button>
                                 </div>
-
-                                <div className="col-sm-6">
-                                    {isVisible5 && (
-                                        <div id="q_1" className="Tgl_Txt">
-                                            The number of great headshots you get depends on the photos you upload. If you follow the guidelines, you can receive <br />
-                                            8-10+ excellent shots. At a minimum, you'll get at least one profile worthy photo.
-                                        </div>
-                                    )}
-                                </div>
+                                {isVisible5 && (
+                                <>
+                                    <div className="col-md-3"></div>
+                                    <div className="col-md-6 Tgl_Txt">
+                                        The number of great headshots you get depends on the photos you upload. If you follow the guidelines, you can receive <br />
+                                        8-10+ excellent shots. At a minimum, you'll get at least one profile worthy photo.
+                                    </div>
+                                </>
+                            )}
                             </div>
                             {/* Seven Toggle Btn Hide Show */}
 
-                            <div className="row">
+                            <div className="row FAQs_Row">
                                 <div className="col-md-3"></div>
                                 <div className="col-md-6 Q_1">
                                     What is the most realistic AI headshots?
                                 </div>
-                                <div className="col-md-3 offset-sm-9">
+                                <div className="col-md-3">
                                     <button className="btn Tgl_Btn" onClick={handleToggle6}>
                                         {isVisible6 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                                     </button>
                                 </div>
-
-                                <div className="col-sm-6">
-                                    {isVisible6 && (
-                                        <div id="q_1" className="Tgl_Txt">
+                                {isVisible6 && (
+                                    <>
+                                        <div className="col-md-3"></div>
+                                        <div className="col-md-6 Tgl_Txt">
                                             Smartshot is the most realistic AI headshot generator. It's used by major companies and powered by Flux technology to <br />
                                             create the best results.
                                         </div>
-                                    )}
-                                </div>
+                                    </>
+                                )}
                             </div>
                             {/* Eight Toggle Btn Hide Show */}
 
-                            <div className="row">
+                            <div className="row FAQs_Row">
                                 <div className="col-md-3"></div>
                                 <div className="col-md-6 Q_1">
                                     Can I use AI headshots on LinkedIn?
                                 </div>
-                                <div className="col-md-3 offset-sm-9">
+                                <div className="col-md-3">
                                     <button className="btn Tgl_Btn" onClick={handleToggle7}>
                                         {isVisible7 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                                     </button>
                                 </div>
-
-                                <div className="col-sm-6">
-                                    {isVisible7 && (
-                                        <div id="q_1" className="Tgl_Txt">
+                                {isVisible7 && (
+                                    <>
+                                        <div className="col-md-3"></div>
+                                        <div className="col-md-6 Tgl_Txt">
                                             Yes, 70% of our customers use AI headshots on LinkedIn. It's perfectly fine!
                                         </div>
-                                    )}
-                                </div>
+                                    </>
+                                )}
                             </div>
                             {/* Nine Toggle Btn Hide Show */}
 
-                            <div className="row">
+                            <div className="row FAQs_Row">
                                 <div className="col-md-3"></div>
                                 <div className="col-md-6 Q_1">
                                     Can ChatGPT generate headshots?
                                 </div>
-                                <div className="col-md-3 offset-sm-9">
+                                <div className="col-md-3">
                                     <button className="btn Tgl_Btn" onClick={handleToggle8}>
                                         {isVisible8 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                                     </button>
                                 </div>
-
-                                <div className="col-sm-6">
-                                    {isVisible8 && (
-                                        <div id="q_1" className="Tgl_Txt">
+                                {isVisible8 && (
+                                    <>
+                                        <div className="col-md-3"></div>
+                                        <div className="col-md-6 Tgl_Txt">
                                             ChatGPT can create basic headshots, but they are not realistic enough for professional use. For high quality headshots, <br /> use Smartshot.
                                         </div>
-                                    )}
-                                </div>
+                                    </>
+                                )}
                             </div>
                         </div>
 

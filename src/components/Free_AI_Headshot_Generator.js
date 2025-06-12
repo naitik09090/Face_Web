@@ -304,179 +304,179 @@ const Free_AI_Headshot_Generator = () => {
 
                 {/* one Toggle Btn Hide Show */}
 
-                <div className="row">
+                <div className="row FAQs_Row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6 Q_1">
                         How does the AI Headshot generator work?
                     </div>
-                    <div className="col-md-3 offset-sm-9">
+                    <div className="col-md-3">
                         <button className="btn Tgl_Btn" onClick={handleToggle}>
                             {isVisible ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                         </button>
                     </div>
-
-                    <div className="col-sm-6">
-                        {isVisible && (
-                            <div id="q_1" className="Tgl_Txt">
+                    {isVisible && (
+                        <>
+                            <div className="col-md-3"></div>
+                            <div className="col-md-6 Tgl_Txt">
                                 Our AI headshot generator uses advanced algorithms to create high quality, professional AI headshots.
                                 Simply upload <br /> your photos, select preferences, and our tool will generate the perfect AI professional headshot for your needs.
                             </div>
-                        )}
-                    </div>
+                        </>
+                    )}
                 </div>
 
                 {/* two Toggle Btn Hide Show */}
 
-                <div className="row">
+                <div className="row FAQs_Row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6 Q_1">
                         How long does it take to generate a headshot?
                     </div>
-                    <div className="col-md-3 offset-sm-9">
+                    <div className="col-md-3">
                         <button className="btn Tgl_Btn" onClick={handleToggle1}>
                             {isVisible1 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                         </button>
                     </div>
-
-                    <div className="col-sm-6">
-                        {isVisible1 && (
-                            <div id="q_1" className="Tgl_Txt">
+                    {isVisible1 && (
+                        <>
+                            <div className="col-md-3"></div>
+                            <div className="col-md-6 Tgl_Txt">
                                 It takes just a few seconds to generate a professional headshot using our AI tool. You'll get a very good quality result in <br /> no time!
                             </div>
-                        )}
-                    </div>
+                        </>
+                    )}
                 </div>
 
                 {/* three Toggle Btn Hide Show */}
 
-                <div className="row">
+                <div className="row FAQs_Row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6 Q_1">
                         Are my photos safe and secure?
                     </div>
-                    <div className="col-md-3 offset-sm-9">
+                    <div className="col-md-3">
                         <button className="btn Tgl_Btn" onClick={handleToggle2}>
                             {isVisible2 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                         </button>
                     </div>
-
-                    <div className="col-sm-6">
-                        {isVisible2 && (
-                            <div id="q_1" className="Tgl_Txt">
+                    {isVisible2 && (
+                        <>
+                            <div className="col-md-3"></div>
+                            <div className="col-md-6 Tgl_Txt">
                                 Your privacy is a priority. We ensure that all your AI headshots are processed securely.
                             </div>
-                        )}
-                    </div>
+                        </>
+                    )}
                 </div>
                 {/* Four Toggle Btn Hide Show */}
 
-                <div className="row">
+                <div className="row FAQs_Row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6 Q_1">
                         What file formats are available for the generated headshot?
                     </div>
-                    <div className="col-md-3 offset-sm-9">
+                    <div className="col-md-3">
                         <button className="btn Tgl_Btn" onClick={handleToggle3}>
                             {isVisible3 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                         </button>
                     </div>
-
-                    <div className="col-sm-6">
-                        {isVisible3 && (
-                            <div id="q_1" className="Tgl_Txt">
+                    {isVisible3 && (
+                        <>
+                            <div className="col-md-3"></div>
+                            <div className="col-md-6 Tgl_Txt">
                                 You can download your AI headshot in popular formats like JPG and PNG, making it easy to upload to platforms like<br /> LinkedIn,
                                 business profiles, or social media.
                             </div>
-                        )}
-                    </div>
+                        </>
+                    )}
                 </div>
                 {/* Five Toggle Btn Hide Show */}
 
-                <div className="row">
+                <div className="row FAQs_Row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6 Q_1">
                         Can i use generated headshots for commercial purposes?
                     </div>
-                    <div className="col-md-3 offset-sm-9">
+                    <div className="col-md-3">
                         <button className="btn Tgl_Btn" onClick={handleToggle4}>
                             {isVisible4 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                         </button>
                     </div>
-
-                    <div className="col-sm-6">
-                        {isVisible4 && (
-                            <div id="q_1" className="Tgl_Txt">
+                    {isVisible4 && (
+                        <>
+                            <div className="col-md-3"></div>
+                            <div className="col-md-6 Tgl_Txt">
                                 Absolutely! Once you have your AI headshot, you can use it across multiple platforms, including websites,
                                 business<br /> cards, and resumes, to showcase a professional image.
                             </div>
-                        )}
-                    </div>
+                        </>
+                    )}
                 </div>
                 {/* six Toggle Btn Hide Show */}
 
-                <div className="row">
+                <div className="row FAQs_Row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6 Q_1">
                         How to Get the Best Results for an AI Headshot?
                     </div>
-                    <div className="col-md-3 offset-sm-9">
+                    <div className="col-md-3">
                         <button className="btn Tgl_Btn" onClick={handleToggle5}>
                             {isVisible5 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                         </button>
                     </div>
-
-                    <div className="col-sm-6">
-                        {isVisible5 && (
-                            <div id="q_1" className="Tgl_Txt">
+                    {isVisible5 && (
+                        <>
+                            <div className="col-md-3"></div>
+                            <div className="col-md-6 Tgl_Txt">
                                 To get the best headshots on, upload a clear, well lit photo taken at eye level, free from accessories like hats or <br /> sunglasses.
                                 The clearer your photo, the better the AI will create a realistic, high quality headshot.
                             </div>
-                        )}
-                    </div>
+                        </>
+                    )}
                 </div>
                 {/* Seven Toggle Btn Hide Show */}
 
-                <div className="row">
+                <div className="row FAQs_Row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6 Q_1">
                         Who should use the AI headshot Generator?
                     </div>
-                    <div className="col-md-3 offset-sm-9">
+                    <div className="col-md-3">
                         <button className="btn Tgl_Btn" onClick={handleToggle6}>
                             {isVisible6 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                         </button>
                     </div>
-
-                    <div className="col-sm-6">
-                        {isVisible6 && (
-                            <div id="q_1" className="Tgl_Txt">
+                    {isVisible6 && (
+                        <>
+                            <div className="col-md-3"></div>
+                            <div className="col-md-6 Tgl_Txt">
                                 Anyone who needs professional photos can use our AI headshot generator.
                                 It's perfect for creating headshots for<br /> LinkedIn, resumes, websites, social media profiles, business cards, and blogs.
                             </div>
-                        )}
-                    </div>
+                        </>
+                    )}
                 </div>
                 {/* Eight Toggle Btn Hide Show */}
 
-                <div className="row">
+                <div className="row FAQs_Row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6 Q_1">
                         Can I get a quality headshot for free?
                     </div>
-                    <div className="col-md-3 offset-sm-9">
+                    <div className="col-md-3">
                         <button className="btn Tgl_Btn" onClick={handleToggle7}>
                             {isVisible7 ? <RxCross1 className="Tgl_Cross_Btn" /> : <HiPlus className="Tgl_Plus_Btn" />}
                         </button>
                     </div>
-
-                    <div className="col-sm-6">
-                        {isVisible7 && (
-                            <div id="q_1" className="Tgl_Txt">
+                    {isVisible7 && (
+                        <>
+                            <div className="col-md-3"></div>
+                            <div className="col-md-6 Tgl_Txt">
                                 Yes, our tool will generate a headshot for free, but the quality may not match the level offered in our professional plan.<br />
                                 For a studio quality look, we recommend using our <a href='/create-headshots1'> Premium option.</a>
                             </div>
-                        )}
-                    </div>
+                        </>
+                    )}
                 </div>
             </div>
 
